@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Fajar Gumelar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #ecf0f1;
+      color: #2c3e50;
+    }
+    header {
+      background: #161a1d;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      border: 2px solid white;
+    }
+    header h1 {
+      margin-top: 15px;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.1em;
+    }
+
+nav {
+      background-color: #444;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-size: 1.8em;
+      color: #2980b9;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .skills li::before {
+      content: '\2713';
+      color: #27ae60;
+      margin-right: 10px;
+    }
+    .contact a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #34495e;
+      color: white;
+      margin-top: 50px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Profile" width="200" >
+    <h1>Fajar Gumelar</h1>
+    <p>Mahasiswa | Pegawai PDAM</p>
+  </header>
+
+<nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#projek">Proyek</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section>
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang mahasiswa di UNIVERSITAS PAMULANG SERANG .Baru belajar dalam membuat website menggunakan HTML, CSS, dan JavaScript. 
+        Dan saya seorang pegawai di perusahaan PERUMDA TIRTA AL-BANTANI.</p>
+  </section>
+
+  <section>
+    <h2>Keahlian</h2>
+    <ul class="skills">
+      <li>HTML, CSS, JavaScript</li>
+      <li>PHP & MySQL</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Proyek</h2>
+    <ul>
+      <li><strong>Aplikasi Rekam Medis</strong> - PHP & MySQL, JS</li>
+      <li><strong>Aplikasi Kasir</strong> - PHP & MySQL</li>
+      <li><strong>Portofolio Pribadi</strong> - HTML, CSS, JS</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:fjrgmlr13@gmail.com">fjrgmlr13@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/fajargumelar" target="_blank">linkedin.com/in/fajargumelar</a></p>
+    <p>GitHub: <a href="https://github.com/fajargumelar" target="_blank">github.com/fajargumelar</a></p>
+     <p>Instagram: <a href="https://instagram.com/username" target="_blank">@fajar.g__</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 created by Fajar Gumelar.
+  </footer>
+</body>
+</html>
